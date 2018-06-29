@@ -1,0 +1,16 @@
+plugins {
+    id 'java'
+}
+
+group 'top.kiswich'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile group: 'junit', name: 'junit', version: '4.12'
+    compile 'com.google.guava:guava:25.1-jre'}
